@@ -138,7 +138,7 @@ join World_Life_Expectancy t3
 where t1.Lifeexpectancy = ''
 ;
 
- --  use the above query to update the originla table 
+ --  use the above query to update the original table 
 update World_Life_Expectancy t1
 join World_Life_Expectancy t2 
  on t1.country = t2.country 
