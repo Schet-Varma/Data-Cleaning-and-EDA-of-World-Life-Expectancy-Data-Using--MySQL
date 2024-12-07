@@ -14,7 +14,8 @@ This project involves cleaning and standardizing the World Life Expectancy datas
      CREATE DATABASE WorldLifeDB;
      USE WorldLifeDB;
 ```
-2.	Import Data:
+2.	Import Data: <br>
+
 Load the CSV file into a table named World_Life_Expectancy.
 
 <h3>🚀 Data Cleaning Process</h3>
@@ -66,7 +67,7 @@ Load the CSV file into a table named World_Life_Expectancy.
     WHERE t1.status = '' AND t2.status = 'Developed';
 ```
 
-<h4>3️⃣ Handling Missing Lifeexpectancy</h4>
+<h4>3️⃣ Handling Missing Life expectancy</h4>
 
 •	Check for Missing Values:
 
